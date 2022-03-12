@@ -1303,7 +1303,7 @@ footer{
 
 
 @media (max-width: 992px){
-	{
+	*{
 		text-align: center;	
 	}
 	.body{
@@ -1315,8 +1315,8 @@ footer{
 		padding: 0;
 	}
 	.navbar{
-		padding: 0.3rem 3rem;
-		padding-left: 2rem;
+		padding: 0.3rem 0rem;
+		padding-left: 0rem;
 /* 		font-size: 2rem; */
 	}
 	.navbar-toggler, .nav-link{
@@ -1367,13 +1367,14 @@ footer{
 	.intro-tagline{
 		top: 40%;
 		font-size: 3rem;
+		width: 100%
 	}
 	#cover-section, .intro-background, .intro-foreground{
 		height: 60rem;
 	}
 	.intro-foreground{
 		right: 0.5rem;
-		width: 90%;
+		width: 400px;
 	}
 	.intro-background .carousel-item{
 		height: 60rem;

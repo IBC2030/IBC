@@ -1312,7 +1312,7 @@ footer{
 	.navbar-brand{
 /* 		font-size: 2rem; */
 		width: 70%;
-		padding-right: 1rem;
+		padding: 0;
 	}
 	.navbar{
 		padding: 0.3rem 3rem;
@@ -1322,11 +1322,13 @@ footer{
 	.navbar-toggler, .nav-link{
 /* 		font-size: 2rem; */
 	}
-	.nav-link .selected{
-		padding: 0.5rem;
+	.nav-link{
+		display: block;
+		padding: 1rem;
 	}
-	.shrink .nav-link .selected{
-		padding: 0.5rem 35%;
+	.nav-link .selected{
+		display: block;
+		padding: 0.5rem;
 	}
 	.dropdown-button{
 		padding-left: 1rem;
@@ -1340,17 +1342,38 @@ footer{
 	}
 	.dropdown-item{
 		text-align: center;
+		
 /* 		font-size: 2rem; */
+	}
+	.shrink {
+	    padding-top: 0 !important;
+	    padding-bottom: 0 !important;
+	    padding-left: 0.2rem !important;
+	    padding-right: 0.2rem !important;
+	    min-height: 2rem !important;
+	}
+
+	.shrink .nav-link {
+	    padding-top: 0rem !important;
+	    padding-bottom: 0rem !important;       
+	}
+
+	.shrink .nav-link .selected{
+		/*padding-bottom: 0.8rem !important;*/
+		padding-bottom: 0.5rem;
+		transition: 0.6s;
 	}
 
 	.intro-tagline{
-		top: 35%;
+		top: 40%;
+		font-size: 3rem;
 	}
 	#cover-section, .intro-background, .intro-foreground{
 		height: 60rem;
 	}
 	.intro-foreground{
 		right: 0.5rem;
+		width: 90%;
 	}
 	.intro-background .carousel-item{
 		height: 60rem;
@@ -1374,6 +1397,7 @@ footer{
 	.about-us-text{
 /* 		font-size: 2rem; */
 		text-align: justify;
+		padding: 2%;
 	}
 	#about-us-button{
 /* 		font-size: 2rem; */
@@ -1394,6 +1418,7 @@ footer{
 	}
 	.carousel-item{
 		padding: 1rem;
+		height: 50rem;
 	}
 	.carousel .table tr td{
 		padding: 1%;

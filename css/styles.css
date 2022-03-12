@@ -1311,6 +1311,8 @@ footer{
 	}
 	.navbar-brand{
 /* 		font-size: 2rem; */
+		width: 70%;
+		padding-right: 1rem;
 	}
 	.navbar{
 		padding: 0.3rem 3rem;

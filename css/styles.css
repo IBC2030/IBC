@@ -1360,12 +1360,12 @@ footer{
 
 	.shrink .nav-link .selected{
 		/*padding-bottom: 0.8rem !important;*/
-		padding-bottom: 0.5rem;
+		padding-bottom: 0rem;
 		transition: 0.6s;
 	}
 
 	.intro-tagline{
-		top: 35%;
+		top: 40%;
 		font-size: 2rem;
 		width: 100%;
 		padding: 2%;
@@ -1451,7 +1451,7 @@ footer{
 		background-size: cover;
 	}*/
 	#our-products, .carousel-item{
-		height: 100rem;
+		height: 100vh;
 	}
 	#our-products-accordion h1, #our-services-accordion h1{
 /* 		font-size: 3rem; */

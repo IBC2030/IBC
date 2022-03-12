@@ -1365,27 +1365,29 @@ footer{
 	}
 
 	.intro-tagline{
-		top: 40%;
+		top: 35%;
 		font-size: 2rem;
-		width: 100%
+		width: 100%;
+		padding: 2%;
 	}
 	#cover-section, .intro-background, .intro-foreground{
-		height: 60rem;
+		height: 35rem;
 	}
 	.intro-foreground{
 		right: 0.5rem;
 		width: 80vw;
 	}
 	.intro-background .carousel-item{
-		height: 60rem;
+		height: 35rem;
 	}
 	.intro-background-heading{
 		top: 70%;
 		left: 0%;
+		font-size: 1rem;
 	}
 	#about-us{
 		padding: 1rem;
-		padding-top: 10rem;
+		padding-top: 5rem;
 	}
 	.owner-image-style{
 		padding: 1rem;
@@ -1419,7 +1421,7 @@ footer{
 	}
 	.carousel-item{
 		padding: 1rem;
-		height: 50rem;
+		height: 80vh;
 	}
 	.carousel .table tr td{
 		padding: 1%;

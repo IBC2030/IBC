@@ -1366,7 +1366,7 @@ footer{
 
 	.intro-tagline{
 		top: 40%;
-		font-size: 3rem;
+		font-size: 2rem;
 		width: 100%
 	}
 	#cover-section, .intro-background, .intro-foreground{
@@ -1374,7 +1374,7 @@ footer{
 	}
 	.intro-foreground{
 		right: 0.5rem;
-		width: 400px;
+		width: 80vw;
 	}
 	.intro-background .carousel-item{
 		height: 60rem;

@@ -1347,6 +1347,9 @@ footer{
 	#cover-section, .intro-background, .intro-foreground{
 		height: 60rem;
 	}
+	.intro-foreground{
+		right: 0.5rem;
+	}
 	.intro-background .carousel-item{
 		height: 60rem;
 	}
@@ -1386,6 +1389,12 @@ footer{
 	.text{
 		text-align: justify;
 /* 		font-size: 2rem; */
+	}
+	.carousel-item{
+		padding: 1rem;
+	}
+	.carousel .table tr td{
+		padding: 1%;
 	}
 	#partners h1, #certifications h1{
 /* 		font-size: 4rem; */
